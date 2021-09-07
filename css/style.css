@@ -2,12 +2,12 @@
     margin: 0% ;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header{
     width: 60%;
     height: 100px;
-    background-color: #e579e6e0;
     margin: 0px auto;
     margin-top:20px;
 }
@@ -15,17 +15,49 @@ header{
 footer{
     width: 60%;
     height: 50px;
-    background-color: rgb(136, 1, 254);
+    text-align: center;
     margin: 10px auto;
     margin-bottom: 20px;
 }
-
+header ul li{
+    list-style: none;
+    display: inline-block;
+}
 .header-logo img{
     width: 100px;
+    margin-bottom: 20px;
+    border-right: 1px solid grey;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: darkgrey;
+    font-size: smaller;
+}
+ul{
+    margin-left: -10px;
 }
 
-li{
-    list-style: none;
+.foto-hero img{
+    width: 100%;
+}
+
+.foto-hero{
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+p{
+    font-size: smaller;
+}
+
+.hero-text{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 50%;
 }
 
 .conteiner{
@@ -34,9 +66,8 @@ li{
 }
 
 .sezione1{
-    height: 300px;
-    background-color: rgb(255, 214, 122);
     margin: 20px 0;
+    position: relative;
 }
 
 
@@ -51,20 +82,32 @@ li{
 }
 
 
-.sezione.a{
-    background-color: rgb(171,207,231);
+.sezione2-header{
+    background-color: rgb(227, 240, 248);
     height: 50px;
-    margin-bottom: 10px;
+    padding-bottom: 60px;
+    margin-bottom: 40px;
 }
 
-.sezione.b{
+.colonna{
     background-color: rgb(171,207,231);
     height: 300px;
     float: left;
     width: 25%;
 }
 
-.sezione.centrale{
+.colonna-foto{
+    height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+}
+.colonna-foto img {
+    width: 100%;
+}
+
+.colonna.centrale{
     background-color: rgb(171,207,231);
     height: 300px;
     float: left;
@@ -72,14 +115,18 @@ li{
     margin: 0 10px;
 }
 
-.sezione.d{
-    background-color: rgb(171,207,231);
-    height: 300px;
-    float: left;
-    width: 25%;
-}
+
 .clearfix::after{
     content: "";
     display: table;
     clear: both;
 }
+
+img{
+    width: 100%;
+}
+
+.heart{
+    color: red;
+}
+

@@ -107,7 +107,6 @@ p{
 }
 
 .colonna{
-    height: 300px;
     float: left;
     width: 25%;
     position: relative;
@@ -125,7 +124,6 @@ p{
 }
 
 .colonna.centrale{
-    height: 300px;
     float: left;
     width: calc(50% - 20px);
     margin: 0 10px;
@@ -156,4 +154,3 @@ img{
 .heart{
     color: red;
 }
-
